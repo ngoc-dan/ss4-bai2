@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+	int n;
+	printf("nhap so n = ");
+	scanf("%d" , n);
+	if(n%2==0){
+		printf("n la so chan\n");
+	}
+	else{
+	    printf("n la so le\n", n);
+    }
+	return 0;
+}
